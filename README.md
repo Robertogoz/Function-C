@@ -10,3 +10,5 @@ Some questions about functions in C.
  * In Ex03 i create a function that calculate a square of a number 
 
  * In Ex04 i create a function that identify if a number is odd or even(positive, negative or zero), so i print the answear
+
+ * In Ex05 i create a function that create a array with N numbers, read all N numbers and return the higher one
