@@ -22,7 +22,12 @@ Some exercises about functions in C.
      * `int cubo(int x)` that returns x³;
      * `int pol_cubo(int a, int b, int c, int d, int x)` that returns ax³ + bx² + cx + d;
     
- * int Ex08 i create 2 functions : 
+ * In Ex08 i create 2 functions : 
  
-     * `void printMatriz(int l, int c, int matriz[l][c])` that print a 3x3 matrix in output
-     * `int processMatriz(int l, int c, int x, int matriz[l][c])` that replace all elements less then x by 0 and return a number(int) of alterations
+     * `void printMatriz(int l, int c, int matriz[l][c])` that receive a matrix and your size and prints a 3x3 matrix in output.
+     * `int processMatriz(int l, int c, int x, int matriz[l][c])` that receive a matrix, your size and a integer x and replace all elements less then x by 0 and return a number(int) of alterations.
+
+ * In Ex09 i create 2 functions : 
+
+     * `void inverter(int *vetor, int n)` that receive an array and your size and invert an array elements.
+     * `void printVetor(int *vetor, int n)` that receive an array and your size and print the array.
