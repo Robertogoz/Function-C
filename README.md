@@ -13,4 +13,16 @@ Some exercises about functions in C.
 
  * In Ex05 i create a function that create a array with N numbers, read all N numbers and return the higher one
  
- * In Ex06 i create a function that compare 2 doubles and return 0 if a == b, 1 if a > b and -1 if a < b 
+ * In Ex06 i create a function that compare 2 doubles and return 0 if a == b, 1 if a > b and -1 if a < b
+ 
+ * In Ex07 i create 4 functions: 
+     
+     * `int multiplica(int x1, int x2)` that returns x1 * x2;
+     * `int quadrado(int x)` that returns X²;
+     * `int cubo(int x)` that returns x³;
+     * `int pol_cubo(int a, int b, int c, int d, int x)` that returns ax³ + bx² + cx + d;
+    
+ * int Ex08 i create 2 functions : 
+ 
+     * `void printMatriz(int l, int c, int matriz[l][c])` that print a 3x3 matrix in output
+     * `int processMatriz(int l, int c, int x, int matriz[l][c])` that replace all elements less then x by 0 and return a number(int) of alterations
