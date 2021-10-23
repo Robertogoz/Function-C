@@ -34,4 +34,4 @@ Some exercises about functions in C.
 
 * In Ex10 i create a function called `retangulo()` that receive int X and int Y and that function print a rectangle with height X and width Y.
 
-* In Ex11 i create a function called `triangulo()` that receive int X and verify if X is a triangular number. 
+* In Ex11 i create a function called `triangular()` that receive int X and verify if X is a triangular number. 
