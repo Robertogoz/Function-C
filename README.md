@@ -31,3 +31,7 @@ Some exercises about functions in C.
 
      * `void inverter(int *vetor, int n)` that receive an array and your size and invert an array elements.
      * `void printVetor(int *vetor, int n)` that receive an array and your size and print the array.
+
+* In Ex10 i create a function called `retangulo()` that receive int X and int Y and that function print a rectangle with height X and width Y.
+
+* In Ex11 i create a function called `triangulo()` that receive int X and verify if X is a triangular number. 
