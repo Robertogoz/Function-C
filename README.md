@@ -17,15 +17,15 @@ Some exercises about functions in C.
  
  * In Ex07 i create 4 functions: 
      
-     * `int multiplica(int x1, int x2)` that returns x1 * x2;
-     * `int quadrado(int x)` that returns X²;
-     * `int cubo(int x)` that returns x³;
-     * `int pol_cubo(int a, int b, int c, int d, int x)` that returns ax³ + bx² + cx + d;
+     * `int multiplica(int x1, int x2)`: that returns x1 * x2;
+     * `int quadrado(int x)`: that returns X²;
+     * `int cubo(int x)`: that returns x³;
+     * `int pol_cubo(int a, int b, int c, int d, int x)`: that returns ax³ + bx² + cx + d;
     
  * In Ex08 i create 2 functions : 
  
-     * `void printMatriz(int l, int c, int matriz[l][c])` that receive a matrix and your size and prints a 3x3 matrix in output.
-     * `int processMatriz(int l, int c, int x, int matriz[l][c])` that receive a matrix, your size and a integer x and replace all elements less then x by 0 and return a number(int) of alterations.
+     * `void printMatriz(int l, int c, int matriz[l][c])`: that receive a matrix and your size and prints a 3x3 matrix in output.
+     * `int processMatriz(int l, int c, int x, int matriz[l][c])`: that receive a matrix, your size and a integer x and replace all elements less then x by 0 and return a number(int) of alterations.
 
  * In Ex09 i create 2 functions : 
 
@@ -35,3 +35,9 @@ Some exercises about functions in C.
 * In Ex10 i create a function called `retangulo()` that receive int X and int Y and that function print a rectangle with height X and width Y.
 
 * In Ex11 i create a function called `triangular()` that receive int X and verify if X is a triangular number. 
+
+* In Ex12 i create 3 functions :
+
+     * `int pot(int bas, int exp)`: that function returns the following result: bas ^ exp.
+     * `void potvetor(int tam, int vetor[], int exp)`: that function calls `int pot()` function to every single element of array passed as argument.
+     * `void printvetor(int tam, int V[tam])`: that function prints the array passed as argument.
