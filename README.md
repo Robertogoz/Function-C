@@ -39,5 +39,17 @@ Some exercises about functions in C.
 * In Ex12 i create 3 functions :
 
      * `int pot(int bas, int exp)`: that function returns the following result: bas ^ exp.
+    
      * `void potvetor(int tam, int vetor[], int exp)`: that function calls `int pot()` function to every single element of array passed as argument.
+    
      * `void printvetor(int tam, int V[tam])`: that function prints the array passed as argument.
+
+* In Ex13 i create 4 functions : 
+
+     * `void funcLeMatriz(int n, int M[n][n])`: that function receive a matrix `M[n][n]` and `int n`(that represents te matrix size) and scans integers to all elements in the `M[n][n]` Matrix 
+    
+     * `void funcPrintMatriz(int n, int M[n][n])`: that function receive a matrix `M[n][n]` and `int n`(that represents te matrix size) andprint all elements of the `M[n][n]` matrix
+    
+     * `int funcParImpar(int x)`: that function receive int x and if x = even replace by 0 and if x = odd replace by 1
+    
+     * `void funcSubstMatriz (int n, int M[n][n])`: that function call funcParImpar to every element of `M[n][n]` matrix
