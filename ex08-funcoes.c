@@ -24,7 +24,7 @@ int processaMatriz(int l, int c, int x, int matriz[l][c]) {
 }
 
 int main(void) {
-	int x, alteracoes=0;
+	int x;
 	int matriz[3][3];
 	scanf("%d",&x);
 	for (i=0; i<3; i++){
